@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Banner = () => {
     return (
         <div 
@@ -9,11 +11,13 @@ const Banner = () => {
             <p className="text-lg md:text-xl mb-6">
               Discover the easiest way to search and book flights with GoAero. Whether you are traveling for business or leisure, our system offers a seamless and efficient experience.
             </p>
-            <button 
+            <Link to="/search">
+            <button
               className="bg-[#78B3CE] hover:bg-[#5a8ea5] text-white font-bold py-2 px-4 rounded"
             >
               Search Flight
             </button>
+            </Link>
           </div>
         </div>
       );

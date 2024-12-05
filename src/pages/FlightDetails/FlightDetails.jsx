@@ -1,6 +1,7 @@
 // FlightDetails.jsx
 import { useState } from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const FlightDetails = () => {
   // Sample flight data
@@ -106,9 +107,10 @@ const FlightDetails = () => {
         </div>
 
         <div className="mt-6">
+          <Link to="/booking">
           <button className="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400">
             Book Now
-          </button>
+          </button></Link>
         </div>
       </div>
     );

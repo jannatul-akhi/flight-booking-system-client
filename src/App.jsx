@@ -1,8 +1,7 @@
 
 import Banner from "./components/Banner/banner"
-import SearchFlight from "./components/SearchResult/SearchResult"
-import FlightBooking from "./pages/FlightBooking/FlightBooking";
-import FlightDetails from "./pages/FlightDetails/FlightDetails";
+import UserProfile from "./pages/UserProfile/UserProfile";
+import Footer from "./shared/Footer/Footer";
 import Navbar from "./shared/Navbar/Navbar"
 
 
@@ -12,11 +11,10 @@ function App() {
     <>
       <Navbar></Navbar>
       <Banner></Banner>
-      <SearchFlight></SearchFlight>
-      <FlightDetails></FlightDetails>
-      <FlightBooking></FlightBooking>
+      <UserProfile></UserProfile>
+      <Footer></Footer>
     </>
   )
 }
 
-export default App
+export default App;

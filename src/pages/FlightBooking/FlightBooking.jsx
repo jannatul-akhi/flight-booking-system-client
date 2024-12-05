@@ -34,7 +34,7 @@ const FlightBooking = () => {
       <h1 className="text-3xl font-bold text-gray-800 mb-6">Flight Booking</h1>
 
       {isSubmitted ? (
-        <div className="max-w-md bg-white p-6 rounded-lg shadow-lg text-center">
+        <div className="bg-white p-6 rounded-lg shadow-lg text-center">
           <h2 className="text-2xl font-bold text-green-600 mb-4">Booking Confirmed!</h2>
           <p className="text-gray-700">Thank you for booking with us, {formData.name}!</p>
           <p className="text-gray-700">
@@ -50,7 +50,7 @@ const FlightBooking = () => {
         </div>
       ) : (
         <form
-          className="max-w-lg bg-white p-6 rounded-lg shadow-lg"
+          className=" bg-white p-6 rounded-lg shadow-lg"
           onSubmit={handleSubmit}
         >
           <div className="mb-4">
